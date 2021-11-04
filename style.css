@@ -12,6 +12,13 @@ body{
         margin: auto;
         width: 40%;
     }
+    .emoji{
+        min-height:100vh;
+        font-size: 80px;
+        justify-content:center;
+        align-items:center;
+        margin: auto;
+    }
 }
 @media only screen and (max-width: 414px) {
     .img{

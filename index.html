@@ -9,17 +9,13 @@
 	<title>Zoom</title>
 	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="./style.css">
+	<script src="./jquery-3.6.0.js"></script>
 </head>
 
 <body>
 	<img src="./image.svg" class="img"></img>
-	<script type="text/javascript">
-		$(window).on('load resize',function(){
-			if($(window).width() < 950){
-				window.location = "https://www.google.com"
-			}
-		});
-	</script>
+	<p class="emoji"></p>
+	<script src="./script.js"></script>
 </body>
 
 </html>
