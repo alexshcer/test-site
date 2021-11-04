@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta data-n-head="ssr" data-hid="viewport" name="viewport" content="width=device-width,initial-scale=1">
+	<meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes">
+	<title>Zoom</title>
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<img src="./image.svg" class="img"></img>
+	<script type="text/javascript">
+		$(window).on('load resize',function(){
+			if($(window).width() < 950){
+				window.location = "https://www.google.com"
+			}
+		});
+	</script>
+</body>
+
+</html>
