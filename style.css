@@ -25,3 +25,8 @@ body{
         width: 50%;
     }
 }
+@media (prefers-color-scheme: dark) {
+    body {
+      background: #171717;
+    }
+  }
